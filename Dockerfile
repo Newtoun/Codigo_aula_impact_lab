@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /usr/src/app
 
-COPY ./ /usr/src/app/
+COPY . /usr/src/app/
 
 RUN g++ -o myapp main.cpp
 
